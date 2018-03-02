@@ -29,3 +29,14 @@
 
 (discount 10 5)
 (discount 29.90 50)
+
+; 3. Define a function grcomdiv that takes two integers and returns their greatest common divisor.
+;    Code Adapted from https://github.com/acmeism/RosettaCodeData/blob/master/Task/Greatest-common-divisor/Racket/greatest-common-divisor-2.rkt
+
+(define (grcomdiv a b)
+  (if (= b 0)
+      a
+      (grcomdiv b (modulo a b))))
+
+(grcomdiv 10 15)
+(grcomdiv 64 30)  
