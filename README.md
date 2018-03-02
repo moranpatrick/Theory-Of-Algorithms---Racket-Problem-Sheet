@@ -1,8 +1,11 @@
 # Theory Of Algorithms 
 ## Racket Problem Sheet
 
-Student: Patrick Moran - g00179039  
-Lecturer: Ian McLoughlin
+><b>Course:</b> BSc (hons) in Software Development, Year 4     
+><b>Module:</b> Theory Of Algorithms   
+><b>Student:</b> Patrick Moran  
+><b>Student Id:</b> g00179039  
+><b>Lecturer:</b> Ian McLoughlin  
 
 This repository contains the solutions to a problem sheet relating to the Racket Functional Programming Language for my Fourth Year, Theory of Algorithms Module. The problem sheet can be viewed below:
 
