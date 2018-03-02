@@ -40,3 +40,14 @@
 
 (grcomdiv 10 15)
 (grcomdiv 64 30)  
+
+; 4. Write a function called appearances that returns the number of times its first argument
+;    appears as a member of its second argument [2].
+;    Adapted From: https://stackoverflow.com/questions/26936949/dr-racket-recursion-count-occurrences
+
+(define (appearances a b)
+    (count (curry equal? a) b))
+
+(appearances 4 (list -4 2 8 4 17 4 )) ; => 4 appears 2 times in the list
+(appearances 1 (list 1 1 1 2 1 7 1 1 9 4 1 1 1 3)) ; => 1 appears 9 times in the list
+
